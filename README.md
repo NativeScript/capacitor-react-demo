@@ -1,5 +1,15 @@
 A simple React Ionic demo with @nativescript/capacitor example wired.
 
+Try it out:
+```
+npm install
+npm run build:mobile
+npx cap sync
+npx cap run ios
+// or...
+npx cap run android
+```
+
 ## How this demo was created
 
 ```
@@ -52,4 +62,6 @@ npx cap sync
 
 // Now just run the app:
 npx cap run ios
+// or...
+npx cap run android
 ```
