@@ -31,7 +31,10 @@ npx cap add ios
 // Now ready for NativeScript 
 npm i @nativescript/capacitor --save
 
-// add bindings/wirings in any component, ie: ExploreContainer.tsx:
+
+```
+
+Now add add bindings/wirings in any component, ie: ExploreContainer.tsx:
 ```
 import './ExploreContainer.css';
 import { native } from '@nativescript/capacitor';
@@ -54,7 +57,8 @@ const ExploreContainer: React.FC<ContainerProps> = ({ name }) => {
 export default ExploreContainer;
 ```
 
-// build for mobile (builds react and nativescript together)
+Now build for mobile (builds react and nativescript together) and prepare to run:
+```
 npm run build:mobile
 
 // Now sync
